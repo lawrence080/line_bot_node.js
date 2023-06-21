@@ -5,7 +5,7 @@
   "main": "line_bot_node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node your-script.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
