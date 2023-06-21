@@ -13,7 +13,7 @@ const client = new line.Client(config)
 const app = express();
 
 app.post('/callback',line.middleware(config),(req, res)=> {
-    promise
+    Promise
         .all(req.body.events.map(handleEvent))
         .then((result) => res.json(result))
         .catch((err) => {
