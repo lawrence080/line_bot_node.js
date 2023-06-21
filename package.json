@@ -1,0 +1,27 @@
+{
+  "name": "linebot_openai_javascript",
+  "version": "1.0.0",
+  "description": "lin_bot_javascript",
+  "main": "line_bot_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawrence080/line_bot_node.js.git"
+  },
+  "keywords": [
+    "lineBot"
+  ],
+  "author": "lawrence",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lawrence080/line_bot_node.js/issues"
+  },
+  "homepage": "https://github.com/lawrence080/line_bot_node.js#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
